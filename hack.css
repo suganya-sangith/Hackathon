@@ -111,10 +111,11 @@ h1
 	display: inline-block;
 	float:left;
 }
-.content-container ul li p
+.content-container ul li p.about
 {
 	width:345px;
 	display: inline-block;
+	height:100px;
 }
 .content-container ul li img
 {
@@ -122,9 +123,9 @@ h1
 	height:200px;
 	width:345px;
 }
-.read-more
+.read-more a
 {
-	margin:30px 0px 0px 0px;
+	margin:50px 0px 0px 0px;
 	margin-right: 0px;
 	padding: 10px;
 	height:20px;
@@ -132,6 +133,7 @@ h1
 	background-color: #0A0A2A;
 	color:white;
 	border-radius:10px;
+	text-decoration: none;
 }
 p.sub-title
 {
