@@ -69,7 +69,7 @@ body
 {
 	width:500px;
 	padding-top: 50px;
-	padding-left: 200px;
+	padding-left: 100px;
 	height:80px;
 	float:left;
 }
@@ -138,6 +138,7 @@ h1
 }
 p.sub-title
 {
+	font-size: 20px;
 	padding-top: 10px;
 	width:100%;
 }
