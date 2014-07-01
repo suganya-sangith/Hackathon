@@ -1,0 +1,147 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content:'';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+header
+{
+	width:100%;
+	height:100;
+	background-color: #FFCC00;
+}
+body
+{
+	font-family: Liberation Sans Narrow;
+	background-color: white;
+}
+.main-navigation
+{
+	width:500px;
+	float:right;
+	padding-top:57px;
+}
+.main-navigation ul
+{
+	display:inline-block;
+}
+.main-navigation ul li
+{
+	padding:10px;
+	height:20px;
+	width:80px;
+	display:inline-block;
+	color:black;
+}
+.main-navigation ul li:hover
+{
+	padding:10px;
+	height:20px;
+	width:80px;
+	background-color: black;
+	color:white;
+	border-radius:12px;
+}
+.main-title
+{
+	font-weight: bold;
+	width:500px;
+	padding-top: 50px;
+	padding-left: 200px;
+	height:80px;
+	float:left;
+}
+h1
+{
+	font-size: 50px;
+}
+.image-container
+{
+background-color: #FFCC00;
+width:100%;
+height:500px;
+}
+.image-container img
+{
+	padding-left: 100px;
+	width:1100px;
+	height:400px;
+}
+.content-container
+{
+	padding-left: 50px;
+	height:500px;
+	width:100%;
+	background-color: white;
+
+}
+.content-container ul
+{
+	width:100%;
+
+}
+.content-container ul li
+{
+	
+	margin-top: 10px;
+	height:500px;
+	width:400px;
+	display: inline-block;
+	float:left;
+}
+.content-container ul li p
+{
+	width:345px;
+	display: inline-block;
+}
+.content-container ul li img
+{
+	padding:20px 0px;
+	height:200px;
+	width:345px;
+}
+.read-more
+{
+	margin:30px 0px 0px 0px;
+	margin-right: 0px;
+	padding: 10px;
+	height:20px;
+	width:100px;
+	background-color: #0A0A2A;
+	color:white;
+	border-radius:10px;
+}
+p.sub-title
+{
+
+	padding-left: 20px;
+	width:100%;
+	text-align: center;
+}
+.clear 
+{
+    clear: left;
+}
